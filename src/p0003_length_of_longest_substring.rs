@@ -6,7 +6,7 @@ use std::collections::HashSet;
 struct Solution;
 
 impl Solution {
-    fn length_of_longest_substring(s: String) -> i32 {
+    pub fn length_of_longest_substring(s: String) -> i32 {
         let bytes = s.as_bytes();
         let mut set = HashSet::new();
         let mut left = 0;
@@ -26,7 +26,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::p3_length_of_longest_substring::Solution;
+    use crate::p0003_length_of_longest_substring::Solution;
 
     type Fn = fn(s: String) -> i32;
 

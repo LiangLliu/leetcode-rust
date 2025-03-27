@@ -42,7 +42,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::p1_two_sum::Solution;
+    use crate::p0001_two_sum::Solution;
 
     type TwoSumFn = fn(Vec<i32>, i32) -> Vec<i32>;
 
