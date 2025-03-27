@@ -8,3 +8,4 @@
 4. Find median sorted arrays 寻找两个正序数组的中位数[Find median sorted arrays](./src/p0004_find_median_sorted_arrays.rs)
 
 2256. count prefixes 统计是给定字符串前缀的字符串数目[count prefixes](./src/p2256_count_prefixes.rs)
+2712. minimum cost 使所有字符相等的最小成本[minimum cost](./src/p2712_minimum_cost.rs)

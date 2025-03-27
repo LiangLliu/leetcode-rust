@@ -4,5 +4,6 @@ mod p0003_length_of_longest_substring;
 mod p0004_find_median_sorted_arrays;
 
 mod p2256_count_prefixes;
+mod p2712_minimum_cost;
 
 fn main() {}
