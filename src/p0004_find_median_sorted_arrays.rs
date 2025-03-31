@@ -116,7 +116,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_methods() {
+    fn test_find_median_sorted_arrays() {
         let methods: Vec<Func> = vec![
             Solution::find_median_sorted_arrays,
             Solution::find_median_sorted_arrays2,

@@ -35,7 +35,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_methods() {
+    fn test_length_of_longest_substring() {
         let methods: Vec<Fn> = vec![Solution::length_of_longest_substring];
 
         for method in methods {

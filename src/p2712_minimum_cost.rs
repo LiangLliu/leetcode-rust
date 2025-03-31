@@ -78,7 +78,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_methods() {
+    fn test_minimum_cost() {
         let methods: Vec<Func> = vec![Solution::minimum_cost, Solution::minimum_cost2];
 
         for method in methods {

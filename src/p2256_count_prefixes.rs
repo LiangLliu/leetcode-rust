@@ -53,7 +53,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_methods() {
+    fn test_count_prefixes() {
         let methods: Vec<Fn> = vec![Solution::count_prefixes, Solution::count_prefixes_iter];
 
         for method in methods {

@@ -85,7 +85,9 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::p0002_all_two_numbers::{ListNode, Solution, create_linked_list, linked_list_to_vec};
+    use crate::p0002_all_two_numbers::{
+        ListNode, Solution, create_linked_list, linked_list_to_vec,
+    };
 
     type TestFn = fn(Option<Box<ListNode>>, Option<Box<ListNode>>) -> Option<Box<ListNode>>;
 
@@ -98,7 +100,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_methods() {
+    fn test_add_two_numbers() {
         let methods: Vec<TestFn> = vec![Solution::add_two_numbers];
 
         for method in methods {
