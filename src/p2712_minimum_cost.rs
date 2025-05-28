@@ -40,6 +40,9 @@ impl Solution {
     pub fn minimum_cost3(s: String) -> i64 {
         let s: Vec<_> = s.chars().collect();
         let n = s.len();
+        if n < 1 {
+            return 0;
+        }
         let mut suf = vec![vec![0; 2]; n + 1];
         for i in (0..n).rev() {
             if s[i] == '1' {
@@ -79,7 +82,11 @@ mod tests {
 
     #[test]
     fn test_minimum_cost() {
-        let methods: Vec<Func> = vec![Solution::minimum_cost, Solution::minimum_cost2, Solution::minimum_cost3];
+        let methods: Vec<Func> = vec![
+            Solution::minimum_cost,
+            Solution::minimum_cost2,
+            Solution::minimum_cost3,
+        ];
 
         for method in methods {
             run_test_case(method, String::from(""), 0);
