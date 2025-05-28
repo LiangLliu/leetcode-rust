@@ -69,7 +69,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::p2712_minimum_cost::Solution;
+    use super::Solution;
 
     type Func = fn(s: String) -> i64;
 
@@ -79,7 +79,7 @@ mod tests {
 
     #[test]
     fn test_minimum_cost() {
-        let methods: Vec<Func> = vec![Solution::minimum_cost, Solution::minimum_cost2];
+        let methods: Vec<Func> = vec![Solution::minimum_cost, Solution::minimum_cost2, Solution::minimum_cost3];
 
         for method in methods {
             run_test_case(method, String::from(""), 0);
