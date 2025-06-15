@@ -10,6 +10,7 @@
   寻找两个正序数组的中位数[Find median sorted arrays](./src/p0004_find_median_sorted_arrays.rs)
 * 5、longest palindrome
   最长回文子串[longest palindrome](src/p0005_longest_palindrome.rs)
+* 6、Z convert/Z 字形变换[longest palindrome](src/p0006_convert_str.rs)
 
 * 2256、count prefixes 统计是给定字符串前缀的字符串数目[count prefixes](./src/p2256_count_prefixes.rs)
 * 2360、longest cycle 图中的最长环 [longest cycle](./src/p2360_longest_cycle.rs)
